@@ -7,7 +7,7 @@
     "build": "ng build",
     "docs:json": "compodoc -p ./tsconfig.json -e json -d .",
     "storybook": "yarn docs:json && start-storybook -p 6006",
-    "build-storybook": "yarn docs:json && build-storybook"
+    "e2e": "ng e2e"
   },
   "private": true,
   "dependencies": {
